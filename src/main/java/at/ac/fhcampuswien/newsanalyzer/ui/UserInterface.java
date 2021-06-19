@@ -49,6 +49,7 @@ public class UserInterface {
 		menu.insert("z", "Sort by longest title", this::getSortArticlesByLongestTitle); // Exercise 3
 		menu.insert("g", "Download URLs", () -> {
 			//Todo
+			System.out.println("test");
 		});
 		menu.insert("q", "Quit", null);
 		Runnable choice;
